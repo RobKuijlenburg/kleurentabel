@@ -13,10 +13,6 @@ td{
     border: 1px solid black;
 }
 
-td:hover {
-    background-color: #f897;
-}
-
 /* tabel sectie grid */
 
 .grid-container {
@@ -29,8 +25,4 @@ td:hover {
 .grid-container div{
     padding: 10px 5px;
     border: 1px solid black;
-}
-
-.grid-container div:hover {
-    background-color: #f897;
 }
