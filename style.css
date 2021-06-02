@@ -1,0 +1,36 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+/* tabel sectie puur html */
+td{
+    padding: 10px 5px;
+    border: 1px solid black;
+}
+
+td:hover {
+    background-color: #f897;
+}
+
+/* tabel sectie grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 54px 54px 54px 54px;
+    grid-gap: 2px;
+    margin-left: 2px;
+}
+
+.grid-container div{
+    padding: 10px 5px;
+    border: 1px solid black;
+}
+
+.grid-container div:hover {
+    background-color: #f897;
+}
